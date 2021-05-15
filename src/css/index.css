@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* hero section */
+
+.hero-container {
+  background-image: url(../images/bg.jpeg);
+  height: 85vh;
+  background-position: center center;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* styles for features */
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-icon {
+  border: 1px solid rgb(119, 117, 117);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* Way of use  */
+.icon {
+  border: 1px solid #6d6c6c;
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* screenshots styles  */
+.screenshots {
+  /* height: 70vh; */
+}
+
+/* footer  styles */
+.footer {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
